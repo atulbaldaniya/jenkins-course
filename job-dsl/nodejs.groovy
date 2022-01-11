@@ -8,7 +8,7 @@ job('NodeJS example') {
         }
     }
     triggers {
-        scm('H/5 * * * *')
+        scm('* * * * *')
     }
     wrappers {
         nodejs('nodejs') // this is the name of the NodeJS installation in
